@@ -5,13 +5,25 @@
 // Project Repository URI: https://github.com/
 // Description: Handles all the webpage level activities (e.g. manipulating page data, etc.)
 // License: MIT
-const bookmarkImgURL = chrome.runtime.getURL("assets/bookmark.png")
-window.addEventListener("load", addBookMarkButton);
+const bookmarkImgURL = chrome.runtime.getURL("assets/bookmark.png");
 const AZ_PROBLEM_KEY = "AZ_PROBLEM_KEY";
 
 
+const observer = new MutationObserver(() => {
+    addBookMarkButton();
+});
+
+observer.observe(document.body, { childList: true, subtree: true });
+
+addBookMarkButton();
+
+function onProblemsPage() {
+    return (window.location.pathname.includes("/problems/"));
+}
+
 
 function addBookMarkButton() {
+    if (!onProblemsPage() || document.getElementById('add-bookmark-button')) return;
     const bookMarkButton = document.createElement('img');
     bookMarkButton.id = "add-bookmark-button";
     bookMarkButton.src = bookmarkImgURL;
