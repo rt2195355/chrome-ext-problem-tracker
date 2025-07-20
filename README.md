@@ -1,41 +1,43 @@
-# Chrome-Extension-Base-Template
-This is a basic Chrome Extension base template for starting new projects off of initialized with a MIT license.
+# Chrome Extension – AZ Problem Tracker
+
+A clean and customizable Chrome Extension built using HTML, CSS, and JavaScript. Designed for tracking and organizing problems (e.g., coding questions) with a lightweight and extendable popup UI.
 
 ## Features
-- ..
-- ..
-- ..
 
-## Author
-First Last
-- [Author Website]()
-- [Author Github]()
-- [Project Repository]()
+- Rounded-corner popup with styled UI
+- Simple and modular codebase
+- Local storage-based data tracking
+- DOM interaction example
+- Easy to modify and extend
 
 ## Requirements
+
 ### Knowledge
-- HTML
-- CSS
-- Javascript
-- Chrome API
+
+- Basic HTML, CSS, and JavaScript
+- Familiarity with the Chrome Extensions API
+
 ### Tools
+
 - Google Chrome Browser
-- IDE or Text Editor of Your Choice
+- Text Editor / IDE (e.g., VS Code)
 
-## Setup Instructions
-### For Developers
-1. Make a clone of this project, unzipped.
-2. Open Chrome Browser
-3. In a new or blank tab, type in "chrome://extensions/" (without the quotes of course) and click [Enter].
-4. At the top right corner of the page, **enable** "Developer Mode"
-5. Click the button on the page that says "Load Unpacked"
-6. Navigate to your unzipped project folder and select that and hit OK.
-7. You are now ready to start working on the extension! Just make sure you reload after each change you make to see the changes take place.
+## Getting Started
 
-### For End Users
-1. ...
-2. ...
-3. ...
+1. Clone or download this repository.
+2. Open Chrome and navigate to `chrome://extensions/`
+3. Enable **Developer Mode** (top-right toggle).
+4. Click **Load Unpacked**.
+5. Select the folder containing this extension.
+6. The extension should now be active in the Chrome toolbar.
+7. Make changes as needed and click **Reload** on the extension page to apply updates.
+
+## Author
+
+**Rajesh Kumar**  
+[GitHub Profile](https://github.com/rt2195355)  
+[Project Repository](https://github.com/rt2195355/chrome-ext-problem-tracker)
 
 ## License
-Please refer to LICENSE file.
+
+This project is licensed under the [MIT License](./LICENSE).

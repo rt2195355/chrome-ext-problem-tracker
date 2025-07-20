@@ -1,10 +1,3 @@
-// content.js
-// Author:
-// Author URI: https://
-// Author Github URI: https://www.github.com/
-// Project Repository URI: https://github.com/
-// Description: Handles all the webpage level activities (e.g. manipulating page data, etc.)
-// License: MIT
 const bookmarkImgURL = chrome.runtime.getURL("assets/bookmark.png");
 const AZ_PROBLEM_KEY = "AZ_PROBLEM_KEY";
 
