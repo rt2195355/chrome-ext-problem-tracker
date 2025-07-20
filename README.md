@@ -1,6 +1,6 @@
 # Chrome Extension – AZ Problem Tracker
 
-A clean and customizable Chrome Extension built using HTML, CSS, and JavaScript. Designed for tracking and organizing problems (e.g., coding questions) with a lightweight and extendable popup UI.
+This is a Chrome extension I made to help track and manage coding problems in AZ website that I’ve solved or want to revisit later. It has a clean popup UI and is easy to customize. I built it for personal use, but it can be a good starting point if you want to make your own Chrome extension.
 
 ## Features
 
